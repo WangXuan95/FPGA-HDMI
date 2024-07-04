@@ -21,6 +21,8 @@ This repo offers an **FPGA**-based HDMI display controller to display videos via
 
 # Hardware design
 
+### Connection
+
 The following figure provides a rough hardware design (i.e. the connection between FPGA chip and HDMI connector).
 
 There are a total of 4 TMDS differential pairs connected to the FPGA chip:
@@ -29,6 +31,12 @@ There are a total of 4 TMDS differential pairs connected to the FPGA chip:
 - hdmi_tx0_p, hdmi_tx0_n
 - hdmi_tx1_p, hdmi_tx1_n
 - hdmi_tx2_p, hdmi_tx2_n
+
+### FPGA IO type and voltage level
+
+Although these signals are 4 differential pairs, they are actually regarded as 8 single-ended pins in FPGA. Note that all 8 pins should be 2.5V voltage level (the corresponding IO bank power should be 2.5V).
+
+### Hardware design reference
 
 For specific design, referred to the schematic of Tang-Nano-4K FPGA board: https://wiki.sipeed.com/hardware/zh/tang/Tang-Nano-4K/Nano-4K.html#%E4%B8%8B%E8%BD%BD%E6%96%B9%E5%BC%8F
 

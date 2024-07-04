@@ -5,10 +5,10 @@
     <Version>5</Version>
     <Device name="GW1NSR-4C" pn="GW1NSR-LV4CQN48PC6/I5">gw1nsr4c-000</Device>
     <FileList>
-        <File path="D:/FPGAcommon/HDMI/FPGA-HDMI/RTL/hdmi_async_fifo.v" type="file.verilog" enable="1"/>
-        <File path="D:/FPGAcommon/HDMI/FPGA-HDMI/RTL/hdmi_tddr.v" type="file.verilog" enable="1"/>
-        <File path="D:/FPGAcommon/HDMI/FPGA-HDMI/RTL/hdmi_tmds_encode.v" type="file.verilog" enable="1"/>
-        <File path="D:/FPGAcommon/HDMI/FPGA-HDMI/RTL/hdmi_tx_top.v" type="file.verilog" enable="1"/>
+        <File path="../RTL/hdmi_async_fifo.v" type="file.verilog" enable="1"/>
+        <File path="../RTL/hdmi_tddr.v" type="file.verilog" enable="1"/>
+        <File path="../RTL/hdmi_tmds_encode.v" type="file.verilog" enable="1"/>
+        <File path="../RTL/hdmi_tx_top.v" type="file.verilog" enable="1"/>
         <File path="RTL/fpga_top.v" type="file.verilog" enable="1"/>
         <File path="RTL/pixel_generate.v" type="file.verilog" enable="1"/>
         <File path="RTL/gowin_pllvr/gowin_pllvr.v" type="file.verilog" enable="1"/>
